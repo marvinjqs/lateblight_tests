@@ -1152,12 +1152,14 @@ server <- function(input, output) {
     
     calendar_plots_app <- lapply(tableGS2()[[1]], function(x) plot_function(x))
     
+    
     dir.create(paste(getwd(), "/calendarplot", sep = ""))
+    do.call(file.remove, list(list.files("./calendarplot", full.names = TRUE)))
     
     for (i in 1:length(calendar_plots_app)) {
       
       png(paste("./calendarplot/plot_", i, ".png", sep = ""), 
-          width = 1000, height = 400, units = "px")
+          width = 800, height = 350, units = "px")
       
       
       plot(calendar_plots_app[[i]])

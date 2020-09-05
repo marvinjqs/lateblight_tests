@@ -1,0 +1,13 @@
+name: DSSA-LATEBLIGHT
+title: DSSA-LATEBLIGHT
+username:
+account: marvinjonathcn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2727852
+bundleId: 3575422
+url: https://marvinjonathcn.shinyapps.io/DSSA-LATEBLIGHT/
+when: 1598874241.70409
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: calendarplot/plot_1.png

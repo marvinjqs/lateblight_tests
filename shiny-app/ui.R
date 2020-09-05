@@ -331,7 +331,7 @@ ui <- dashboardPage(skin = "green",
                                        br(),
                                        withLoader(
                                          #br(),
-                                         slickROutput("calendars", width="1000px"), 
+                                         slickROutput("calendars", width="80%"), 
                                          type = "html", loader = "loader4"),
                                        
                                        downloadButton("downloadData", " Download data")

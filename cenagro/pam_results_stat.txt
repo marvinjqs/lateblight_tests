@@ -1,0 +1,330 @@
+[[1]]
+    P024_03                                                      P016         P020_01       
+ Min.   :2612   Persona natural                                    :2573   Min.   :  0.004  
+ 1st Qu.:2612   Sociedad anónima cerrada SAC                       :   0   1st Qu.:  0.388  
+ Median :2612   Sociedad anónima abierta SAA                       :   0   Median :  1.000  
+ Mean   :2612   Sociedad de responsabilidad limitada SRL           :   0   Mean   :  3.525  
+ 3rd Qu.:2612   Empresa Individual de responsabilidad limitada EIRL:   0   3rd Qu.:  2.500  
+ Max.   :2612   Cooperativa agraria                                :   0   Max.   :831.500  
+                (Other)                                            :   0                    
+     WSUP03            WSUP04           WSUP05             WSUP13             WSUP18       
+ Min.   :  0.004   Min.   :  0.00   Min.   :  0.0000   Min.   : 0.00000   Min.   :  0.004  
+ 1st Qu.:  0.330   1st Qu.:  0.00   1st Qu.:  0.0000   1st Qu.: 0.00000   1st Qu.:  0.300  
+ Median :  0.900   Median :  0.00   Median :  0.0000   Median : 0.00000   Median :  0.825  
+ Mean   :  2.075   Mean   :  1.21   Mean   :  0.2399   Mean   : 0.04926   Mean   :  1.887  
+ 3rd Qu.:  2.000   3rd Qu.:  0.14   3rd Qu.:  0.0500   3rd Qu.: 0.00000   3rd Qu.:  1.830  
+ Max.   :625.000   Max.   :800.00   Max.   :454.0000   Max.   :55.25000   Max.   :625.000  
+                                                                                           
+    WALTITUD      LONG_DECI         LAT_DECI            P025              P026     
+ Min.   :  20   Min.   :-79.80   Min.   :-18.023   Min.   :  0.0015   Riego :2255  
+ 1st Qu.:3007   1st Qu.:-77.68   1st Qu.:-13.549   1st Qu.:  0.0625   Secano: 318  
+ Median :3204   Median :-76.74   Median :-10.008   Median :  0.1650                
+ Mean   :3154   Mean   :-75.62   Mean   :-11.264   Mean   :  0.3201                
+ 3rd Qu.:3400   3rd Qu.:-73.62   3rd Qu.: -9.160   3rd Qu.:  0.2500                
+ Max.   :4818   Max.   :-69.47   Max.   : -4.917   Max.   :100.0000                
+                                                                                   
+           titulo                                            P037_01_03             P050     
+ PAPA AMARGA  :   0   Con título inscrito en registros públicos   :1658   Licencia    :1281  
+ PAPA AMARILLA:   0   Con título no inscrito en registros públicos: 278   Permiso     : 522  
+ PAPA BLANCA  :2573   Sin título, pero en trámite de título       : 178   Autorización: 510  
+ PAPA COLOR   :   0   Sin título, ni trámite                      : 459   No tiene    : 131  
+ PAPA HUAYRO  :   0                                                       No sabe     : 129  
+ PAPA NATIVA  :   0                                                                          
+                                                                                             
+                     P052                          P053      P101     
+ En cantidad suficiente: 389   En cantidad suficiente: 191   Si:1889  
+ En poca cantidad      :1958   En poca cantidad      :1865   No: 684  
+ No aplica             : 226   No aplica             : 517            
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                             P105                  P110     
+ Son cultivos de poco gasto                    :1428   Productor(a)  :2573  
+ Siempre siembra el mismo cultivo              : 658   Esposo(a)     :   0  
+ Mercado asegurado                             : 130   Hijo(a)       :   0  
+ Son cultivos de menor periodo vegetativo      : 101   Yerno/nuera   :   0  
+ Por precio del producto en la campaña anterior:  96   Nieto(a)      :   0  
+ Por el abastecimiento de agua                 :  92   Padres/suegros:   0  
+ (Other)                                       :  68   (Other)       :   0  
+                         P114                      P115     
+ Primaria incompleta       :1094   Quechua           :1824  
+ Sin nivel                 : 505   Aymara            :  22  
+ Primaria completa         : 384   Ashaninka         :   4  
+ Secundaria incompleta     : 219   Otra lengua nativa:   0  
+ Secundaria completa       : 188   Castellano        : 720  
+ Superior no univ. completa:  58   Idioma extranjero :   3  
+ (Other)                   : 125                            
+                                                                         P118         cluster 
+ Red pública de desagüe dentro de la vivienda                              : 534   Min.   :1  
+ Red pública de desagüe, fuera de la vivienda pero dentro de la edificación:  68   1st Qu.:1  
+ Pozo séptico                                                              : 258   Median :1  
+ Pozo ciego o negro / letrina                                              :1338   Mean   :1  
+ Río, acequia o canal                                                      :  21   3rd Qu.:1  
+ Otro                                                                      :   6   Max.   :1  
+ No tiene                                                                  : 348              
+
+[[2]]
+    P024_03                                                      P016         P020_01         
+ Min.   :2612   Persona natural                                    :4504   Min.   :   0.0032  
+ 1st Qu.:2612   Sociedad anónima cerrada SAC                       :   0   1st Qu.:   0.5000  
+ Median :2612   Sociedad anónima abierta SAA                       :   0   Median :   1.1966  
+ Mean   :2612   Sociedad de responsabilidad limitada SRL           :   0   Mean   :   4.0191  
+ 3rd Qu.:2612   Empresa Individual de responsabilidad limitada EIRL:   0   3rd Qu.:   2.5669  
+ Max.   :2612   Cooperativa agraria                                :   0   Max.   :2200.0000  
+                (Other)                                            :   0                      
+     WSUP03              WSUP04             WSUP05             WSUP13             WSUP18         
+ Min.   :   0.0032   Min.   :  0.0000   Min.   : 0.00000   Min.   : 0.00000   Min.   :   0.0025  
+ 1st Qu.:   0.4500   1st Qu.:  0.0000   1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.:   0.4000  
+ Median :   1.0000   Median :  0.0000   Median : 0.00000   Median : 0.00000   Median :   0.9900  
+ Mean   :   3.3408   Mean   :  0.5935   Mean   : 0.08485   Mean   : 0.03308   Mean   :   3.0867  
+ 3rd Qu.:   2.0644   3rd Qu.:  0.1100   3rd Qu.: 0.05200   3rd Qu.: 0.00000   3rd Qu.:   1.9500  
+ Max.   :2050.0000   Max.   :375.2500   Max.   :50.00000   Max.   :11.50000   Max.   :2050.0000  
+                                                                                                 
+    WALTITUD      LONG_DECI         LAT_DECI            P025              P026     
+ Min.   : 151   Min.   :-79.43   Min.   :-17.194   Min.   :  0.0010   Riego :3217  
+ 1st Qu.:3252   1st Qu.:-76.26   1st Qu.:-13.657   1st Qu.:  0.0825   Secano:1287  
+ Median :3483   Median :-74.28   Median :-13.259   Median :  0.1950                
+ Mean   :3458   Mean   :-74.50   Mean   :-12.297   Mean   :  0.4769                
+ 3rd Qu.:3711   3rd Qu.:-73.31   3rd Qu.: -9.909   3rd Qu.:  0.3300                
+ Max.   :4737   Max.   :-68.96   Max.   : -6.149   Max.   :200.0000                
+                                                                                   
+           titulo                                            P037_01_03             P050     
+ PAPA AMARGA  :   0   Con título inscrito en registros públicos   : 759   Licencia    : 550  
+ PAPA AMARILLA:   0   Con título no inscrito en registros públicos: 405   Permiso     : 931  
+ PAPA BLANCA  :4504   Sin título, pero en trámite de título       : 256   Autorización: 948  
+ PAPA COLOR   :   0   Sin título, ni trámite                      :3084   No tiene    :1646  
+ PAPA HUAYRO  :   0                                                       No sabe     : 429  
+ PAPA NATIVA  :   0                                                                          
+                                                                                             
+                     P052                          P053      P101     
+ En cantidad suficiente: 931   En cantidad suficiente: 400   Si: 726  
+ En poca cantidad      :3184   En poca cantidad      :2740   No:3778  
+ No aplica             : 389   No aplica             :1364            
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                             P105                  P110     
+ Siempre siembra el mismo cultivo              :3241   Productor(a)  :4504  
+ Son cultivos de poco gasto                    : 606   Esposo(a)     :   0  
+ Mercado asegurado                             : 198   Hijo(a)       :   0  
+ Por precio del producto en la campaña anterior: 173   Yerno/nuera   :   0  
+ Son cultivos de menor periodo vegetativo      :  96   Nieto(a)      :   0  
+ Otra                                          :  95   Padres/suegros:   0  
+ (Other)                                       :  95   (Other)       :   0  
+                         P114                      P115     
+ Primaria incompleta       :1680   Quechua           :4378  
+ Sin nivel                 : 986   Aymara            : 123  
+ Primaria completa         : 697   Ashaninka         :   2  
+ Secundaria incompleta     : 495   Otra lengua nativa:   1  
+ Secundaria completa       : 455   Castellano        :   0  
+ Superior no univ. completa:  61   Idioma extranjero :   0  
+ (Other)                   : 130                            
+                                                                         P118         cluster 
+ Red pública de desagüe dentro de la vivienda                              : 560   Min.   :2  
+ Red pública de desagüe, fuera de la vivienda pero dentro de la edificación: 108   1st Qu.:2  
+ Pozo séptico                                                              : 579   Median :2  
+ Pozo ciego o negro / letrina                                              :2414   Mean   :2  
+ Río, acequia o canal                                                      :  10   3rd Qu.:2  
+ Otro                                                                      :  21   Max.   :2  
+ No tiene                                                                  : 812              
+
+[[3]]
+    P024_03                                                      P016         P020_01         
+ Min.   :2612   Persona natural                                    :3404   Min.   :    0.004  
+ 1st Qu.:2612   Sociedad anónima cerrada SAC                       :   0   1st Qu.:    0.600  
+ Median :2612   Sociedad anónima abierta SAA                       :   0   Median :    1.500  
+ Mean   :2612   Sociedad de responsabilidad limitada SRL           :   0   Mean   :   12.433  
+ 3rd Qu.:2612   Empresa Individual de responsabilidad limitada EIRL:   0   3rd Qu.:    3.500  
+ Max.   :2612   Cooperativa agraria                                :   0   Max.   :27630.000  
+                (Other)                                            :   0                      
+     WSUP03              WSUP04             WSUP05           WSUP13             WSUP18         
+ Min.   :    0.002   Min.   :  0.0000   Min.   : 0.000   Min.   :  0.0000   Min.   :    0.002  
+ 1st Qu.:    0.454   1st Qu.:  0.0000   1st Qu.: 0.000   1st Qu.:  0.0000   1st Qu.:    0.419  
+ Median :    1.000   Median :  0.0109   Median : 0.010   Median :  0.0000   Median :    0.990  
+ Mean   :   10.764   Mean   :  1.5474   Mean   : 0.122   Mean   :  0.1037   Mean   :    9.541  
+ 3rd Qu.:    2.310   3rd Qu.:  0.7500   3rd Qu.: 0.100   3rd Qu.:  0.0000   3rd Qu.:    2.000  
+ Max.   :27630.000   Max.   :180.7400   Max.   :20.000   Max.   :200.0000   Max.   :24380.000  
+                                                                                               
+    WALTITUD      LONG_DECI         LAT_DECI            P025              P026     
+ Min.   :  52   Min.   :-79.91   Min.   :-18.104   Min.   :  0.0001   Riego :2812  
+ 1st Qu.:2855   1st Qu.:-78.50   1st Qu.:-11.666   1st Qu.:  0.1000   Secano: 592  
+ Median :3239   Median :-77.60   Median : -8.457   Median :  0.2500                
+ Mean   :3150   Mean   :-76.97   Mean   : -9.327   Mean   :  0.4421                
+ 3rd Qu.:3510   3rd Qu.:-75.58   3rd Qu.: -7.172   3rd Qu.:  0.4000                
+ Max.   :4750   Max.   :-69.50   Max.   : -4.587   Max.   :200.0000                
+                                                                                   
+           titulo                                            P037_01_03             P050     
+ PAPA AMARGA  :   0   Con título inscrito en registros públicos   : 807   Licencia    : 355  
+ PAPA AMARILLA:   0   Con título no inscrito en registros públicos: 373   Permiso     : 650  
+ PAPA BLANCA  :3404   Sin título, pero en trámite de título       : 263   Autorización: 585  
+ PAPA COLOR   :   0   Sin título, ni trámite                      :1961   No tiene    :1499  
+ PAPA HUAYRO  :   0                                                       No sabe     : 315  
+ PAPA NATIVA  :   0                                                                          
+                                                                                             
+                     P052                          P053      P101     
+ En cantidad suficiente: 549   En cantidad suficiente: 329   Si: 455  
+ En poca cantidad      :2445   En poca cantidad      :2441   No:2949  
+ No aplica             : 410   No aplica             : 634            
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                             P105                  P110     
+ Siempre siembra el mismo cultivo              :2323   Productor(a)  :3404  
+ Son cultivos de poco gasto                    : 585   Esposo(a)     :   0  
+ Mercado asegurado                             : 133   Hijo(a)       :   0  
+ Son cultivos de menor periodo vegetativo      : 123   Yerno/nuera   :   0  
+ Por precio del producto en la campaña anterior: 101   Nieto(a)      :   0  
+ Por el abastecimiento de agua                 :  76   Padres/suegros:   0  
+ (Other)                                       :  63   (Other)       :   0  
+                         P114                      P115     
+ Primaria incompleta       :1600   Quechua           :   0  
+ Primaria completa         : 542   Aymara            :  13  
+ Sin nivel                 : 378   Ashaninka         :   0  
+ Secundaria completa       : 344   Otra lengua nativa:   2  
+ Secundaria incompleta     : 307   Castellano        :3389  
+ Superior no univ. completa:  72   Idioma extranjero :   0  
+ (Other)                   : 161                            
+                                                                         P118         cluster 
+ Red pública de desagüe dentro de la vivienda                              : 369   Min.   :3  
+ Red pública de desagüe, fuera de la vivienda pero dentro de la edificación:  57   1st Qu.:3  
+ Pozo séptico                                                              : 342   Median :3  
+ Pozo ciego o negro / letrina                                              :1995   Mean   :3  
+ Río, acequia o canal                                                      :  27   3rd Qu.:3  
+ Otro                                                                      :   6   Max.   :3  
+ No tiene                                                                  : 608              
+
+[[4]]
+    P024_03                                                      P016         P020_01        
+ Min.   :2612   Persona natural                                    :1808   Min.   :  0.0025  
+ 1st Qu.:2612   Sociedad anónima cerrada SAC                       :   0   1st Qu.:  0.4950  
+ Median :2612   Sociedad anónima abierta SAA                       :   0   Median :  1.5000  
+ Mean   :2612   Sociedad de responsabilidad limitada SRL           :   0   Mean   :  6.5549  
+ 3rd Qu.:2612   Empresa Individual de responsabilidad limitada EIRL:   0   3rd Qu.:  4.0000  
+ Max.   :2612   Cooperativa agraria                                :   0   Max.   :797.7500  
+                (Other)                                            :   0                     
+     WSUP03             WSUP04             WSUP05             WSUP13             WSUP18        
+ Min.   :  0.0025   Min.   :  0.0000   Min.   :  0.0000   Min.   : 0.00000   Min.   :  0.0025  
+ 1st Qu.:  0.4288   1st Qu.:  0.0000   1st Qu.:  0.0000   1st Qu.: 0.00000   1st Qu.:  0.4000  
+ Median :  1.2500   Median :  0.0000   Median :  0.0000   Median : 0.00000   Median :  1.1566  
+ Mean   :  3.7296   Mean   :  2.6722   Mean   :  0.1531   Mean   : 0.04796   Mean   :  3.5291  
+ 3rd Qu.:  3.2325   3rd Qu.:  0.0458   3rd Qu.:  0.0200   3rd Qu.: 0.00000   3rd Qu.:  3.0000  
+ Max.   :726.0000   Max.   :766.0000   Max.   :150.0000   Max.   :12.00000   Max.   :726.0000  
+                                                                                               
+    WALTITUD      LONG_DECI         LAT_DECI            P025              P026     
+ Min.   :   8   Min.   :-79.84   Min.   :-18.019   Min.   :  0.0005   Riego :1562  
+ 1st Qu.:2986   1st Qu.:-77.17   1st Qu.:-13.681   1st Qu.:  0.0800   Secano: 246  
+ Median :3308   Median :-75.32   Median :-12.048   Median :  0.2000                
+ Mean   :3034   Mean   :-74.94   Mean   :-12.187   Mean   :  0.7075                
+ 3rd Qu.:3499   3rd Qu.:-72.46   3rd Qu.:-10.155   3rd Qu.:  0.5000                
+ Max.   :4964   Max.   :-69.05   Max.   : -4.921   Max.   :250.0000                
+                                                                                   
+           titulo                                            P037_01_03            P050    
+ PAPA AMARGA  :   0   Con título inscrito en registros públicos   :889   Licencia    :938  
+ PAPA AMARILLA:   0   Con título no inscrito en registros públicos:253   Permiso     :393  
+ PAPA BLANCA  :1808   Sin título, pero en trámite de título       :173   Autorización:298  
+ PAPA COLOR   :   0   Sin título, ni trámite                      :493   No tiene    :119  
+ PAPA HUAYRO  :   0                                                      No sabe     : 60  
+ PAPA NATIVA  :   0                                                                        
+                                                                                           
+                     P052                          P053      P101     
+ En cantidad suficiente:1277   En cantidad suficiente:1008   Si:1365  
+ En poca cantidad      : 338   En poca cantidad      : 423   No: 443  
+ No aplica             : 193   No aplica             : 377            
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                             P105                  P110     
+ Siempre siembra el mismo cultivo              :1022   Productor(a)  :1808  
+ Son cultivos de poco gasto                    : 287   Esposo(a)     :   0  
+ Mercado asegurado                             : 168   Hijo(a)       :   0  
+ Por precio del producto en la campaña anterior: 123   Yerno/nuera   :   0  
+ Por el abastecimiento de agua                 :  69   Nieto(a)      :   0  
+ Son cultivos de menor periodo vegetativo      :  67   Padres/suegros:   0  
+ (Other)                                       :  72   (Other)       :   0  
+                      P114                     P115     
+ Secundaria completa    :550   Quechua           : 421  
+ Primaria completa      :299   Aymara            :  23  
+ Primaria incompleta    :254   Ashaninka         :   0  
+ Secundaria incompleta  :216   Otra lengua nativa:   1  
+ Sin nivel              :170   Castellano        :1363  
+ Superior univ. completa:138   Idioma extranjero :   0  
+ (Other)                :181                            
+                                                                         P118        cluster 
+ Red pública de desagüe dentro de la vivienda                              :878   Min.   :4  
+ Red pública de desagüe, fuera de la vivienda pero dentro de la edificación: 52   1st Qu.:4  
+ Pozo séptico                                                              :245   Median :4  
+ Pozo ciego o negro / letrina                                              :368   Mean   :4  
+ Río, acequia o canal                                                      : 30   3rd Qu.:4  
+ Otro                                                                      :  5   Max.   :4  
+ No tiene                                                                  :230              
+
+[[5]]
+    P024_03                                                      P016         P020_01        
+ Min.   :2612   Persona natural                                    :2711   Min.   :  0.0034  
+ 1st Qu.:2612   Sociedad anónima cerrada SAC                       :   0   1st Qu.:  0.5000  
+ Median :2612   Sociedad anónima abierta SAA                       :   0   Median :  1.2500  
+ Mean   :2612   Sociedad de responsabilidad limitada SRL           :   0   Mean   :  3.0542  
+ 3rd Qu.:2612   Empresa Individual de responsabilidad limitada EIRL:   0   3rd Qu.:  3.0000  
+ Max.   :2612   Cooperativa agraria                                :   0   Max.   :280.0000  
+                (Other)                                            :   0                     
+     WSUP03            WSUP04            WSUP05             WSUP13            WSUP18      
+ Min.   :  0.002   Min.   :  0.000   Min.   : 0.00000   Min.   :0.00000   Min.   : 0.002  
+ 1st Qu.:  0.380   1st Qu.:  0.000   1st Qu.: 0.00000   1st Qu.:0.00000   1st Qu.: 0.350  
+ Median :  0.990   Median :  0.000   Median : 0.00600   Median :0.00000   Median : 0.880  
+ Mean   :  1.877   Mean   :  1.092   Mean   : 0.08528   Mean   :0.02924   Mean   : 1.642  
+ 3rd Qu.:  2.185   3rd Qu.:  0.500   3rd Qu.: 0.06335   3rd Qu.:0.00000   3rd Qu.: 2.000  
+ Max.   :110.000   Max.   :256.100   Max.   :17.70000   Max.   :5.00000   Max.   :60.000  
+                                                                                          
+    WALTITUD      LONG_DECI         LAT_DECI            P025             P026     
+ Min.   : 510   Min.   :-79.96   Min.   :-17.980   Min.   : 0.0010   Riego :2230  
+ 1st Qu.:2680   1st Qu.:-78.46   1st Qu.:-13.098   1st Qu.: 0.0800   Secano: 481  
+ Median :3016   Median :-77.64   Median : -8.826   Median : 0.2000                
+ Mean   :3024   Mean   :-76.59   Mean   : -9.826   Mean   : 0.2806                
+ 3rd Qu.:3433   3rd Qu.:-75.09   3rd Qu.: -7.142   3rd Qu.: 0.2600                
+ Max.   :4750   Max.   :-69.06   Max.   : -4.587   Max.   :10.0000                
+                                                                                  
+           titulo                                            P037_01_03             P050     
+ PAPA AMARGA  :   0   Con título inscrito en registros públicos   : 575   Licencia    : 345  
+ PAPA AMARILLA:   0   Con título no inscrito en registros públicos: 313   Permiso     :1183  
+ PAPA BLANCA  :2711   Sin título, pero en trámite de título       : 230   Autorización: 503  
+ PAPA COLOR   :   0   Sin título, ni trámite                      :1593   No tiene    : 431  
+ PAPA HUAYRO  :   0                                                       No sabe     : 249  
+ PAPA NATIVA  :   0                                                                          
+                                                                                             
+                     P052                          P053      P101     
+ En cantidad suficiente: 404   En cantidad suficiente: 248   Si: 572  
+ En poca cantidad      :1709   En poca cantidad      : 564   No:2139  
+ No aplica             : 598   No aplica             :1899            
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                       P105                  P110     
+ Son cultivos de poco gasto              :1771   Productor(a)  :2711  
+ Siempre siembra el mismo cultivo        : 557   Esposo(a)     :   0  
+ Mercado asegurado                       :  93   Hijo(a)       :   0  
+ Son cultivos de menor periodo vegetativo:  80   Yerno/nuera   :   0  
+ Por el abastecimiento de agua           :  79   Nieto(a)      :   0  
+ Otra                                    :  65   Padres/suegros:   0  
+ (Other)                                 :  66   (Other)       :   0  
+                         P114                      P115     
+ Primaria completa         :1153   Quechua           : 526  
+ Primaria incompleta       : 457   Aymara            :  70  
+ Sin nivel                 : 423   Ashaninka         :   2  
+ Secundaria completa       : 269   Otra lengua nativa:   5  
+ Secundaria incompleta     : 244   Castellano        :2107  
+ Superior no univ. completa:  55   Idioma extranjero :   1  
+ (Other)                   : 110                            
+                                                                         P118         cluster 
+ Red pública de desagüe dentro de la vivienda                              : 363   Min.   :5  
+ Red pública de desagüe, fuera de la vivienda pero dentro de la edificación:  60   1st Qu.:5  
+ Pozo séptico                                                              : 205   Median :5  
+ Pozo ciego o negro / letrina                                              :1595   Mean   :5  
+ Río, acequia o canal                                                      :  14   3rd Qu.:5  
+ Otro                                                                      :   9   Max.   :5  
+ No tiene                                                                  : 465              
+
