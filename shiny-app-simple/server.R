@@ -1158,7 +1158,9 @@ server <- function(input, output) {
       
       
       calendar_plot_app <- calendarPlot(data_final, pollutant = "app", 
-                                        labels = c("No Apply", "Apply"), breaks = c(0,0.5,1))
+                                        labels = c("No Apply", "Apply"),
+                                        breaks = c(0,0.5,1),
+                                        main = "Fungicide application calendar")
       
       
       return(calendar_plot_app)
@@ -1171,10 +1173,13 @@ server <- function(input, output) {
     dir.create(paste(getwd(), "/calendarplot", sep = ""))
     do.call(file.remove, list(list.files("./calendarplot", full.names = TRUE)))
     
+    plot_width <- as.numeric(input$dimension[1])/1.4
+  
+    
     for (i in 1:length(calendar_plots_app)) {
       
       png(paste("./calendarplot/plot_", i, ".png", sep = ""), 
-          width = 800, height = 350, units = "px")
+          width = plot_width , height = 440, units = "px")
       
       
       plot(calendar_plots_app[[i]])
@@ -1186,7 +1191,10 @@ server <- function(input, output) {
     imgs_calendar <-  list.files(paste(getwd(), "/calendarplot", sep = ""), 
                                  pattern=".png", full.names = TRUE)
     
-    slickR(imgs_calendar, slideId = 'baseDiv')
+    slick <- slickR(imgs_calendar, slideId = 'baseDiv')
+    
+    slick + settings(dots = TRUE)
+    
   
     
   })

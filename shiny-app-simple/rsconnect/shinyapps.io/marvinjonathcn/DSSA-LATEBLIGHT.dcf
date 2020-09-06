@@ -5,9 +5,9 @@ account: marvinjonathcn
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2727852
-bundleId: 3575422
+bundleId: 3599734
 url: https://marvinjonathcn.shinyapps.io/DSSA-LATEBLIGHT/
-when: 1598874241.70409
+when: 1599421542.65508
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: calendarplot/plot_1.png
+ignoredFiles: logo.png|calendarplot/plot_1.png|calendarplot/plot_2.png|calendarplot/plot_3.png

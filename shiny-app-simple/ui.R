@@ -8,7 +8,6 @@ library(stringr)
 library(lubridate)
 library(DBI)
 library(RMySQL)
-library(DT)
 library(maps)
 library(ggmap)
 library(ggplot2)
@@ -33,61 +32,67 @@ library(openair)
 
 ui <- dashboardPage(skin = "green",
                     
+                    
                     #CABECERA DE PAGINA
                     dashboardHeader(
-                      title = "LATE BLIGHT",
                       
-                      dropdownMenu(type = "messages",
-                                   messageItem(
-                                     from = "Sales Dept",
-                                     message = "Sales are steady this month."
-                                   ),
-                                   
-                                   messageItem(
-                                     from = "New User",
-                                     message = "How do I register?",
-                                     icon = icon("question"),
-                                     time = "13:45"
-                                   ),
-                                   
-                                   messageItem(
-                                     from = "Support",
-                                     message = "The new server is ready.",
-                                     icon = icon("life-ring"),
-                                     time = "2014-12-01"
-                                   )
-                                   
-                      )
-                      
-                    ),
+                      title = tags$a(href='https://marvinjonathcn.shinyapps.io/DSSA-LATEBLIGHT/',
+                                     tags$img(src='logo.png',
+                                              width = "200px",
+                                              height = "50px"))
+                      ),
                     
                     #BARRA LATERAL
                     dashboardSidebar(
+                      
                       sidebarMenu(
                         menuItem("Dashboard", tabName = "dashboard", icon = icon("th")),
                         
-                        menuItem("About", tabName = "about", icon = icon("th"), #,badgeLabel = "new", 
-                                 badgeColor = "green")
-                      )
-                    ),
+                        menuItem("About", tabName = "about", icon = icon("info-circle")),
+                        
+                        # \u2007 es para un espacio en blanco
+                        menuItem("\u2007Github", 
+                                 icon = icon("github"), 
+                                 href = "https://github.com/")
+                      
+                        )
+                      ),
+                    
                     
                     dashboardBody(
+                      
+                      # Obtener mediante Javascript el ancho y largo de sesion
+                      tags$head(tags$script('
+                                var dimension = [0, 0];
+                                $(document).on("shiny:connected", function(e) {
+                                    dimension[0] = window.innerWidth;
+                                    dimension[1] = window.innerHeight;
+                                    Shiny.onInputChange("dimension", dimension);
+                                });
+                                $(window).resize(function(e) {
+                                    dimension[0] = window.innerWidth;
+                                    dimension[1] = window.innerHeight;
+                                    Shiny.onInputChange("dimension", dimension);
+                                });
+                            ')),
+                      
+                      
                       tabItems(
                         tabItem(
                           tabName = "dashboard",
                           fluidRow(
                             tabBox(
                               title = "POTATO LATE BLIGHT - DSS",
-                              id = "tabset1", 
-                              height = "1000px", 
+                              id = "tabset1",
                               width = 12,
+                           
                               
                               #INGRESAR LOS ARCHIVOS DE ENTRADA
                               tabPanel(
                                 title = "INPUT DATA",
                                 icon  =  icon ( "file-import" ),
                                
-                                    
+                                    fluidRow(
                                              column(
                                                12,
                                                h3("Crop information"),
@@ -120,15 +125,16 @@ ui <- dashboardPage(skin = "green",
                                                column(
                                                  2
                                                )
-                                             ),
-                                             
+                                             )),
+                                            
+                                fluidRow( 
                                              column(
                                                12,
                                                h3("Area of interest"),
                                                br(),
                                                fluidRow(
                                                  box(
-                                                   height = "750px",
+                                                   width = 6,
                                                    
                                                             h4("Select the location(s) of interest on the map"),
                                                             br(),
@@ -141,27 +147,17 @@ ui <- dashboardPage(skin = "green",
                                                  ),
                                                  
                                                  box(
+                                                   width = 6,
                                                    #h4("MAP" ,align = "center"), height = "750px",
-                                                   leafletOutput("mymap1a", "100%", "550px"),
+                                                   leafletOutput("mymap1a"),
                                                    #br(),
                                                    actionButton("clearMap1a", "Clear", class="btn-warning", width = "120px" )
                                                  )
                                                  
                                                )
                                                
-                                             )
-                                             
-                                    
-                                    
-                                    
-                                    
-                                   
-                                    
-                                  
-                                  
-                                
-                                
-                                
+                                             ))
+                                          
                                 
                                 
                                 
@@ -177,9 +173,11 @@ ui <- dashboardPage(skin = "green",
                                        br(),
                                        withLoader(
                                          #br(),
-                                         slickROutput("calendars", width="80%"), 
+                                         slickROutput("calendars", width="90%"),
                                          type = "html", loader = "loader4"),
-                                       
+                                       br(),
+                                       br(),
+                                       br(),
                                        downloadButton("downloadData", " Download data")
                               )
                               
@@ -196,15 +194,17 @@ ui <- dashboardPage(skin = "green",
                                 h3("Forecasting Model for Potato Late Blight Management"),
                                 h4("International Potato Center")
                                 
+                        
+                                )
+                        
+                        
+                        
                         )
-                        
-                        
-                        
-                        
-                      )
                       
                       
                       
-                    ) 
                     
-)
+                      ) 
+                    
+
+                    )
