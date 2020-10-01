@@ -852,6 +852,7 @@ server <- function(input, output) {
     
     
     print(day0)
+    print(dayn)
     
     if((dayinitial < sysdate) == TRUE && (dayfinal < sysdate) == TRUE) {
       
@@ -1110,9 +1111,7 @@ server <- function(input, output) {
     
     strTable <- apply(dataxycoord, 1, function(x)  climDataAPI_input_model(day0,dayn,x[1],x[2],hrlimite,calculate_hhr))
     
-    print(strTable)
-    
-    print(class(strTable[[1]]))
+   
     
     
     
@@ -1251,7 +1250,7 @@ server <- function(input, output) {
     
     strTable2 <- data.frame(hr_hours,tmeanC[1:length(tmeanC)-1,2],precip[1:length(precip)-1,2])
     names(strTable2) <- c("date","hr90_h","tempC","rainmm")
-    print(strTable2)
+  
     runsimcast <- applySimcastFromString(strTable2,input$res2, 1, nrow(strTable2), T,  T )
     #print(runsimcast)
     a <- data.frame(strsplit(runsimcast[1], "\\s+")[[1]], stringsAsFactors = F)

@@ -40,6 +40,9 @@ ui <- dashboardPage(skin = "green",
                                      tags$img(src='logo.png',
                                               width = "200px",
                                               height = "50px"))
+                      
+                    
+                      
                       ),
                     
                     #BARRA LATERAL
@@ -74,8 +77,11 @@ ui <- dashboardPage(skin = "green",
                                     dimension[1] = window.innerHeight;
                                     Shiny.onInputChange("dimension", dimension);
                                 });
-                            ')),
-                      
+                            '),
+                                
+                                tags$link(
+                                  rel = "stylesheet", type = "text/css", href = "custom.css")
+                                ),
                       
                       tabItems(
                         tabItem(
