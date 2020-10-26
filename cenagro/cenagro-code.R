@@ -128,7 +128,7 @@ ggplot(df_crop_cluster, aes(x=LONG_DECI, y = LAT_DECI, color = factor(cluster)))
 
 
 
-mod <- ctree(cluster ~ .,data = df_crop_cluster)
+mod_plot <- ctree(cluster ~ .,data = df_crop_cluster)
 
 
 
